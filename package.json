@@ -1,0 +1,26 @@
+{
+  "name": "webpack-plugin-comment",
+  "version": "1.0.0",
+  "description": "webpack注释学习-给bundle添加注释",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderMing/webpack-plugin-comment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoderMing/webpack-plugin-comment/issues"
+  },
+  "homepage": "https://github.com/CoderMing/webpack-plugin-comment#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
