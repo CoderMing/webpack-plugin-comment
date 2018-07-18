@@ -1,4 +1,5 @@
 const path = require('path')
+const SetAuthorPlugin = require('./my-plugin/set-author')
 
 module.exports = {
   mode: 'development',
@@ -23,5 +24,9 @@ module.exports = {
         }],
       }
     ]
-  }
+  },
+
+  plugins: [
+    new SetAuthorPlugin()
+  ]
 }
